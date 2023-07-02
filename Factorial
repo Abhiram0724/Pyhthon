@@ -1,0 +1,6 @@
+# Write a Python program to find factorial of a number
+x=int(input());f=1
+while x>1:
+  f=f*x
+  x=x-1
+print(f)  
