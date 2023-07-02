@@ -1,0 +1,12 @@
+# Write a python program to check the given year is leap year or not
+y=int(input())
+if y%4==0:
+  if y%100==0: 
+      if y%400==0:
+        print("Leap Year")
+      else:
+        print("Not a Leap Year")  
+  else:
+      print("Leap Year")  
+else:
+  print("Not a Leap Year")
