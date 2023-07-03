@@ -1,1 +1,1 @@
-# Pyhthon
+# Python
